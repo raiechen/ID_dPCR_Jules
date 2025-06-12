@@ -1,0 +1,10 @@
+﻿sep=,
+Plate name,Plate ID,Plate type,Well,Hyperwell,Sample/NTC/Control,Type,Reaction Mix,Target (Name),Target (IC),Target (Control),Conc. [cp/µL] (dPCR reaction),Conc. [-] (dPCR reaction),CI (95%) (dPCR reaction),Conc. [cp/µL] (undiluted sample),Conc. [-] (undiluted sample),Partitions (Valid),Partitions (Positive),Partitions (Negative),Threshold,Volume per well [µl],Concentration factor,Template volume [µl],Total volume [µl],Conversion factor,Conversion unit,REF,CXT matrix RM template name,CXT matrix RM template ID
+26937-06_30-25-ENG-019_AZD0240 ID_24MAR2025_AH,d2897d4a-932e-4f1d-995d-c50fa01e75ff,Nanoplate 26K 24-well,HW1,"A1,A2",TS01,SAMPLE,ID AZD0240-B2M,B2M,-,-,506.12517827164277,-,0.015610102124413322,-,-,50330,15957,34373,50.0,39.757,-,-,-,-,-,Std-Ref,-,-
+,,,HW1,"A1,A2",TS01,SAMPLE,ID AZD0240-B2M,ID AZD0240,-,-,257.9744786889849,-,0.020732835235231468,-,-,50752,8965,41787,35.9,39.757,-,-,-,-,-,Std-Ref,-,-
+,,,HW3,"C3,D3",PC,SAMPLE,ID AZD0240-B2M,B2M,-,-,423.9902877129099,-,0.016979765963868482,-,-,50633,13430,37203,50.0,38.359,-,-,-,-,-,Std-Ref,-,-
+,,,HW3,"C3,D3",PC,SAMPLE,ID AZD0240-B2M,ID AZD0240,-,-,211.02713203216928,-,0.023074725627256217,-,-,50831,7229,43602,35.9,38.359,-,-,-,-,-,Std-Ref,-,-
+,,,HW4,"E3,F3",NC,SAMPLE,ID AZD0240-B2M,B2M,-,-,472.7672044491306,-,0.016284333635671385,-,-,50548,14628,35920,50.0,38.131,-,-,-,-,-,Std-Ref,-,-
+,,,HW4,"E3,F3",NC,SAMPLE,ID AZD0240-B2M,ID AZD0240,-,-,0.02718970657357938,-,1.4750009106030546,-,-,50897,1,50896,35.9,38.131,-,-,-,-,-,Std-Ref,-,-
+,,,HW2,"G3,H3",NTC,SAMPLE,ID AZD0240-B2M,B2M,-,-,0.0,-,-,-,-,50882,0,50882,50.0,38.980000000000004,-,-,-,-,-,Std-Ref,-,-
+,,,HW2,"G3,H3",NTC,SAMPLE,ID AZD0240-B2M,ID AZD0240,-,-,0.026605344897092157,-,1.4750009161754576,-,-,50882,1,50881,35.9,38.980000000000004,-,-,-,-,-,Std-Ref,-,-

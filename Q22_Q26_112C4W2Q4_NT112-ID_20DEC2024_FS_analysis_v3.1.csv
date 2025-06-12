@@ -1,0 +1,12 @@
+﻿sep=,
+Plate name,Plate ID,Plate type,Well,Hyperwell,Sample/NTC/Control,Type,Reaction Mix,Target (Name),Target (IC),Target (Control),Conc. [cp/µL] (dPCR reaction),Conc. [-] (dPCR reaction),CI (95%) (dPCR reaction),Conc. [cp/µL] (undiluted sample),Conc. [-] (undiluted sample),Partitions (Valid),Partitions (Positive),Partitions (Negative),Threshold,Volume per well [µl],Concentration factor,Template volume [µl],Total volume [µl],Conversion factor,Conversion unit,REF,CXT matrix RM template name,CXT matrix RM template ID
+Q22_Q26_112C4W2Q4_NT112-ID_20DEC2024_FS,84797d14-7aad-4a81-9468-730772f3af79,Nanoplate 26K 24-well,HW1,"A1,A2",TS01,SAMPLE,NT-112IDB2M,NT-112ID,-,-,238.1127969278966,-,0.021542368729600494,-,-,50539,8300,42239,29.14,39.757,-,-,-,-,-,Std-Ref,-,-
+,,,HW1,"A1,A2",TS01,SAMPLE,NT-112IDB2M,B2M,-,-,465.38426662654496,-,0.016183251540426536,-,-,50105,14819,35286,50.0,39.757,-,-,-,-,-,Std-Ref,-,-
+,,,HW2,"B1,B2",TS02,SAMPLE,NT-112IDB2M,NT-112ID,-,-,231.21781387676486,-,0.02199487589011969,-,-,50691,7960,42731,29.14,38.985,-,-,-,-,-,Std-Ref,-,-
+,,,HW2,"B1,B2",TS02,SAMPLE,NT-112IDB2M,B2M,-,-,456.2631273078002,-,0.016394139089194976,-,-,50424,14429,35995,50.0,38.985,-,-,-,-,-,Std-Ref,-,-
+,,,HW3,"C3,D3",PC,SAMPLE,NT-112IDB2M,NT-112ID,-,-,224.87863915079816,-,0.02240598962466687,-,-,50852,7669,43183,29.14,38.359,-,-,-,-,-,Std-Ref,-,-
+,,,HW3,"C3,D3",PC,SAMPLE,NT-112IDB2M,B2M,-,-,443.9977964518993,-,0.01666546685451142,-,-,50578,13952,36626,50.0,38.359,-,-,-,-,-,Std-Ref,-,-
+,,,HW4,"E3,F3",NC,SAMPLE,NT-112IDB2M,NT-112ID,-,-,0.0,-,-,-,-,50672,0,50672,29.14,38.131,-,-,-,-,-,Std-Ref,-,-
+,,,HW4,"E3,F3",NC,SAMPLE,NT-112IDB2M,B2M,-,-,395.435009233871,-,0.01759452443063939,-,-,50268,12494,37774,50.0,38.131,-,-,-,-,-,Std-Ref,-,-
+,,,HW5,"G3,H3",NTC,SAMPLE,NT-112IDB2M,NT-112ID,-,-,0.0,-,-,-,-,50706,0,50706,29.14,38.980000000000004,-,-,-,-,-,Std-Ref,-,-
+,,,HW5,"G3,H3",NTC,SAMPLE,NT-112IDB2M,B2M,-,-,0.0,-,-,-,-,50706,0,50706,50.0,38.980000000000004,-,-,-,-,-,Std-Ref,-,-
