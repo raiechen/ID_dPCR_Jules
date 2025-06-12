@@ -16,19 +16,19 @@ if uploaded_file is not None:
     # Try UTF-8 first
     try:
         uploaded_file.seek(0) # Reset file pointer to the beginning
-        df = pd.read_csv(uploaded_file, encoding='utf-8')
+        df = pd.read_csv(uploaded_file, encoding='utf-8', header=1)
         tried_encodings.append('utf-8')
     except UnicodeDecodeError:
         # Try ISO-8859-1 if UTF-8 fails
         try:
             uploaded_file.seek(0) # Reset file pointer
-            df = pd.read_csv(uploaded_file, encoding='iso-8859-1')
+            df = pd.read_csv(uploaded_file, encoding='iso-8859-1', header=1)
             tried_encodings.append('iso-8859-1')
         except UnicodeDecodeError:
             # Try cp1252 if ISO-8859-1 also fails
             try:
                 uploaded_file.seek(0) # Reset file pointer
-                df = pd.read_csv(uploaded_file, encoding='cp1252')
+                df = pd.read_csv(uploaded_file, encoding='cp1252', header=1)
                 tried_encodings.append('cp1252')
             except UnicodeDecodeError:
                 error_message = "Error: Could not decode the file with UTF-8, ISO-8859-1, or CP1252 encoding. Please check the file encoding."
