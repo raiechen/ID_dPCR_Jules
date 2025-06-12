@@ -2,9 +2,6 @@ import streamlit as st
 import pandas as pd
 
 st.title("CSV Uploader and Viewer")
-st.markdown("Upload a CSV file to view its contents in an expandable table.")
-st.markdown("If you encounter errors after uploading, your CSV might have an unsupported encoding. The application will attempt to read common encodings (UTF-8, ISO-8859-1, CP1252). If issues persist, try saving your CSV file as UTF-8 and re-uploading.")
-st.markdown("---") # Adds a horizontal rule for separation
 
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
 
